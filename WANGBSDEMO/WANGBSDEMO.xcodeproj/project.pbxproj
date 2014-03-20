@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8ADB46B18D7E7E400E379C7 /* WechatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8ADB46A18D7E7E400E379C7 /* WechatViewController.m */; };
+		A8BDDE5B18D6A4FD00E82FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BDDE5A18D6A4FD00E82FAD /* Foundation.framework */; };
+		A8BDDE5D18D6A4FD00E82FAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BDDE5C18D6A4FD00E82FAD /* CoreGraphics.framework */; };
+		A8BDDE5F18D6A4FD00E82FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BDDE5E18D6A4FD00E82FAD /* UIKit.framework */; };
+		A8BDDE6518D6A4FD00E82FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8BDDE6318D6A4FD00E82FAD /* InfoPlist.strings */; };
+		A8BDDE6718D6A4FD00E82FAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BDDE6618D6A4FD00E82FAD /* main.m */; };
+		A8BDDE6B18D6A4FD00E82FAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BDDE6A18D6A4FD00E82FAD /* AppDelegate.m */; };
+		A8BDDE6E18D6A4FD00E82FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BDDE6C18D6A4FD00E82FAD /* Main.storyboard */; };
+		A8BDDE7118D6A4FD00E82FAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BDDE7018D6A4FD00E82FAD /* ViewController.m */; };
+		A8BDDE7318D6A4FD00E82FAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BDDE7218D6A4FD00E82FAD /* Images.xcassets */; };
+		A8BDDE7A18D6A4FD00E82FAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BDDE7918D6A4FD00E82FAD /* XCTest.framework */; };
+		A8BDDE7B18D6A4FD00E82FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BDDE5A18D6A4FD00E82FAD /* Foundation.framework */; };
+		A8BDDE7C18D6A4FD00E82FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BDDE5E18D6A4FD00E82FAD /* UIKit.framework */; };
+		A8BDDE8418D6A4FD00E82FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8BDDE8218D6A4FD00E82FAD /* InfoPlist.strings */; };
+		A8BDDE8618D6A4FD00E82FAD /* WANGBSDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BDDE8518D6A4FD00E82FAD /* WANGBSDEMOTests.m */; };
+		A8BDDE9118D6CD1500E82FAD /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BDDE9018D6CD1500E82FAD /* RecipeDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8BDDE7D18D6A4FD00E82FAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BDDE4F18D6A4FD00E82FAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BDDE5618D6A4FD00E82FAD;
+			remoteInfo = WANGBSDEMO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8ADB46918D7E7E400E379C7 /* WechatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatViewController.h; sourceTree = "<group>"; };
+		A8ADB46A18D7E7E400E379C7 /* WechatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatViewController.m; sourceTree = "<group>"; };
+		A8BDDE5718D6A4FD00E82FAD /* WANGBSDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WANGBSDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BDDE5A18D6A4FD00E82FAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8BDDE5C18D6A4FD00E82FAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8BDDE5E18D6A4FD00E82FAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8BDDE6218D6A4FD00E82FAD /* WANGBSDEMO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WANGBSDEMO-Info.plist"; sourceTree = "<group>"; };
+		A8BDDE6418D6A4FD00E82FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8BDDE6618D6A4FD00E82FAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8BDDE6818D6A4FD00E82FAD /* WANGBSDEMO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WANGBSDEMO-Prefix.pch"; sourceTree = "<group>"; };
+		A8BDDE6918D6A4FD00E82FAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8BDDE6A18D6A4FD00E82FAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8BDDE6D18D6A4FD00E82FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8BDDE6F18D6A4FD00E82FAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8BDDE7018D6A4FD00E82FAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8BDDE7218D6A4FD00E82FAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8BDDE7818D6A4FD00E82FAD /* WANGBSDEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WANGBSDEMOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BDDE7918D6A4FD00E82FAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A8BDDE8118D6A4FD00E82FAD /* WANGBSDEMOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WANGBSDEMOTests-Info.plist"; sourceTree = "<group>"; };
+		A8BDDE8318D6A4FD00E82FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8BDDE8518D6A4FD00E82FAD /* WANGBSDEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WANGBSDEMOTests.m; sourceTree = "<group>"; };
+		A8BDDE8F18D6CD1500E82FAD /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		A8BDDE9018D6CD1500E82FAD /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BDDE5418D6A4FD00E82FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDDE5D18D6A4FD00E82FAD /* CoreGraphics.framework in Frameworks */,
+				A8BDDE5F18D6A4FD00E82FAD /* UIKit.framework in Frameworks */,
+				A8BDDE5B18D6A4FD00E82FAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BDDE7518D6A4FD00E82FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDDE7A18D6A4FD00E82FAD /* XCTest.framework in Frameworks */,
+				A8BDDE7C18D6A4FD00E82FAD /* UIKit.framework in Frameworks */,
+				A8BDDE7B18D6A4FD00E82FAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8BDDE4E18D6A4FD00E82FAD = {
+			isa = PBXGroup;
+			children = (
+				A8BDDE6018D6A4FD00E82FAD /* WANGBSDEMO */,
+				A8BDDE7F18D6A4FD00E82FAD /* WANGBSDEMOTests */,
+				A8BDDE5918D6A4FD00E82FAD /* Frameworks */,
+				A8BDDE5818D6A4FD00E82FAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BDDE5818D6A4FD00E82FAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDDE5718D6A4FD00E82FAD /* WANGBSDEMO.app */,
+				A8BDDE7818D6A4FD00E82FAD /* WANGBSDEMOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BDDE5918D6A4FD00E82FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDDE5A18D6A4FD00E82FAD /* Foundation.framework */,
+				A8BDDE5C18D6A4FD00E82FAD /* CoreGraphics.framework */,
+				A8BDDE5E18D6A4FD00E82FAD /* UIKit.framework */,
+				A8BDDE7918D6A4FD00E82FAD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8BDDE6018D6A4FD00E82FAD /* WANGBSDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDDE6918D6A4FD00E82FAD /* AppDelegate.h */,
+				A8BDDE6A18D6A4FD00E82FAD /* AppDelegate.m */,
+				A8ADB46918D7E7E400E379C7 /* WechatViewController.h */,
+				A8ADB46A18D7E7E400E379C7 /* WechatViewController.m */,
+				A8BDDE6C18D6A4FD00E82FAD /* Main.storyboard */,
+				A8BDDE6F18D6A4FD00E82FAD /* ViewController.h */,
+				A8BDDE7018D6A4FD00E82FAD /* ViewController.m */,
+				A8BDDE8F18D6CD1500E82FAD /* RecipeDetailViewController.h */,
+				A8BDDE9018D6CD1500E82FAD /* RecipeDetailViewController.m */,
+				A8BDDE7218D6A4FD00E82FAD /* Images.xcassets */,
+				A8BDDE6118D6A4FD00E82FAD /* Supporting Files */,
+			);
+			path = WANGBSDEMO;
+			sourceTree = "<group>";
+		};
+		A8BDDE6118D6A4FD00E82FAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDDE6218D6A4FD00E82FAD /* WANGBSDEMO-Info.plist */,
+				A8BDDE6318D6A4FD00E82FAD /* InfoPlist.strings */,
+				A8BDDE6618D6A4FD00E82FAD /* main.m */,
+				A8BDDE6818D6A4FD00E82FAD /* WANGBSDEMO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8BDDE7F18D6A4FD00E82FAD /* WANGBSDEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDDE8518D6A4FD00E82FAD /* WANGBSDEMOTests.m */,
+				A8BDDE8018D6A4FD00E82FAD /* Supporting Files */,
+			);
+			path = WANGBSDEMOTests;
+			sourceTree = "<group>";
+		};
+		A8BDDE8018D6A4FD00E82FAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDDE8118D6A4FD00E82FAD /* WANGBSDEMOTests-Info.plist */,
+				A8BDDE8218D6A4FD00E82FAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BDDE5618D6A4FD00E82FAD /* WANGBSDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BDDE8918D6A4FD00E82FAD /* Build configuration list for PBXNativeTarget "WANGBSDEMO" */;
+			buildPhases = (
+				A8BDDE5318D6A4FD00E82FAD /* Sources */,
+				A8BDDE5418D6A4FD00E82FAD /* Frameworks */,
+				A8BDDE5518D6A4FD00E82FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WANGBSDEMO;
+			productName = WANGBSDEMO;
+			productReference = A8BDDE5718D6A4FD00E82FAD /* WANGBSDEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8BDDE7718D6A4FD00E82FAD /* WANGBSDEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BDDE8C18D6A4FD00E82FAD /* Build configuration list for PBXNativeTarget "WANGBSDEMOTests" */;
+			buildPhases = (
+				A8BDDE7418D6A4FD00E82FAD /* Sources */,
+				A8BDDE7518D6A4FD00E82FAD /* Frameworks */,
+				A8BDDE7618D6A4FD00E82FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8BDDE7E18D6A4FD00E82FAD /* PBXTargetDependency */,
+			);
+			name = WANGBSDEMOTests;
+			productName = WANGBSDEMOTests;
+			productReference = A8BDDE7818D6A4FD00E82FAD /* WANGBSDEMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BDDE4F18D6A4FD00E82FAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___WANGBS___";
+				TargetAttributes = {
+					A8BDDE7718D6A4FD00E82FAD = {
+						TestTargetID = A8BDDE5618D6A4FD00E82FAD;
+					};
+				};
+			};
+			buildConfigurationList = A8BDDE5218D6A4FD00E82FAD /* Build configuration list for PBXProject "WANGBSDEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BDDE4E18D6A4FD00E82FAD;
+			productRefGroup = A8BDDE5818D6A4FD00E82FAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BDDE5618D6A4FD00E82FAD /* WANGBSDEMO */,
+				A8BDDE7718D6A4FD00E82FAD /* WANGBSDEMOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BDDE5518D6A4FD00E82FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDDE7318D6A4FD00E82FAD /* Images.xcassets in Resources */,
+				A8BDDE6518D6A4FD00E82FAD /* InfoPlist.strings in Resources */,
+				A8BDDE6E18D6A4FD00E82FAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BDDE7618D6A4FD00E82FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDDE8418D6A4FD00E82FAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BDDE5318D6A4FD00E82FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDDE7118D6A4FD00E82FAD /* ViewController.m in Sources */,
+				A8BDDE9118D6CD1500E82FAD /* RecipeDetailViewController.m in Sources */,
+				A8BDDE6B18D6A4FD00E82FAD /* AppDelegate.m in Sources */,
+				A8BDDE6718D6A4FD00E82FAD /* main.m in Sources */,
+				A8ADB46B18D7E7E400E379C7 /* WechatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BDDE7418D6A4FD00E82FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDDE8618D6A4FD00E82FAD /* WANGBSDEMOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8BDDE7E18D6A4FD00E82FAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8BDDE5618D6A4FD00E82FAD /* WANGBSDEMO */;
+			targetProxy = A8BDDE7D18D6A4FD00E82FAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8BDDE6318D6A4FD00E82FAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BDDE6418D6A4FD00E82FAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8BDDE6C18D6A4FD00E82FAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BDDE6D18D6A4FD00E82FAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8BDDE8218D6A4FD00E82FAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BDDE8318D6A4FD00E82FAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8BDDE8718D6A4FD00E82FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8BDDE8818D6A4FD00E82FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BDDE8A18D6A4FD00E82FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fei ye (59B8R4B5EM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WANGBSDEMO/WANGBSDEMO-Prefix.pch";
+				INFOPLIST_FILE = "WANGBSDEMO/WANGBSDEMO-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1F260277-0778-47A5-96D1-2BE72E9D5B95";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8BDDE8B18D6A4FD00E82FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WANGBSDEMO/WANGBSDEMO-Prefix.pch";
+				INFOPLIST_FILE = "WANGBSDEMO/WANGBSDEMO-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1F260277-0778-47A5-96D1-2BE72E9D5B95";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8BDDE8D18D6A4FD00E82FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WANGBSDEMO.app/WANGBSDEMO";
+				CODE_SIGN_IDENTITY = "iPhone Developer: fei ye (59B8R4B5EM)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WANGBSDEMO/WANGBSDEMO-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WANGBSDEMOTests/WANGBSDEMOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A8BDDE8E18D6A4FD00E82FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WANGBSDEMO.app/WANGBSDEMO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WANGBSDEMO/WANGBSDEMO-Prefix.pch";
+				INFOPLIST_FILE = "WANGBSDEMOTests/WANGBSDEMOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BDDE5218D6A4FD00E82FAD /* Build configuration list for PBXProject "WANGBSDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BDDE8718D6A4FD00E82FAD /* Debug */,
+				A8BDDE8818D6A4FD00E82FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BDDE8918D6A4FD00E82FAD /* Build configuration list for PBXNativeTarget "WANGBSDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BDDE8A18D6A4FD00E82FAD /* Debug */,
+				A8BDDE8B18D6A4FD00E82FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BDDE8C18D6A4FD00E82FAD /* Build configuration list for PBXNativeTarget "WANGBSDEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BDDE8D18D6A4FD00E82FAD /* Debug */,
+				A8BDDE8E18D6A4FD00E82FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BDDE4F18D6A4FD00E82FAD /* Project object */;
+}
